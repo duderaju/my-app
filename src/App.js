@@ -14,7 +14,7 @@ const App = () => {
       email: 'duderaju1310@gmail.com',
       description: 'Content Creator specializing in tech reviews.',
       languages: ['English', 'Hindi'],
-      education: 'Bachelor’s in Civil Engineering',
+      education: 'Bachelor’s in Technology',
       specialization: 'Civil  Engineering',
       socialMediaLinks: [
         { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/dude-raju-194863205/' },

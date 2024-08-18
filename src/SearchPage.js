@@ -14,31 +14,53 @@ const SearchPage = ({ profiles }) => {
     const { name, value } = e.target;
     setFilters((prevFilters) => ({
       ...prevFilters,
-      [name]: value.toLowerCase(), // Convert to lowercase for case-insensitive matching
+      [name]: value.toLowerCase(),
     }));
   };
 
   // Handle changes in text search input
   const handleTextSearchChange = (e) => {
-    setSearchText(e.target.value.toLowerCase()); // Convert to lowercase for case-insensitive matching
+    setSearchText(e.target.value.toLowerCase());
   };
 
   // Filter profiles based on search text and filters
   const filteredProfiles = profiles.filter((profile) => {
-    const matchesLanguage = filters.language
-      ? profile.languages.some((lang) =>
-          lang.toLowerCase().includes(filters.language)
+    // Split the language filter by commas and trim whitespace
+    const filterLanguages = filters.language
+      ? filters.language.split(',').map((lang) => lang.trim())
+      : [];
+
+    const matchesLanguage = filterLanguages.length > 0
+      ? filterLanguages.every((filterLang) =>
+          profile.languages.some((lang) =>
+            lang.toLowerCase().includes(filterLang.toLowerCase())
+          )
         )
       : true;
+
     const matchesEducation = filters.education
       ? profile.education.toLowerCase().includes(filters.education)
       : true;
+
     const matchesSpecialization = filters.specialization
       ? profile.specialization.toLowerCase().includes(filters.specialization)
       : true;
+
+    // Enhanced text search to check multiple fields
+    const searchLanguages = searchText
+      ? searchText.split(',').map((lang) => lang.trim())
+      : [];
+
     const matchesText = searchText
       ? profile.name.toLowerCase().includes(searchText) ||
-        profile.description.toLowerCase().includes(searchText)
+        profile.description.toLowerCase().includes(searchText) ||
+        searchLanguages.every((searchLang) =>
+          profile.languages.some((lang) =>
+            lang.toLowerCase().includes(searchLang)
+          )
+        ) ||
+        profile.education.toLowerCase().includes(searchText) ||
+        profile.specialization.toLowerCase().includes(searchText)
       : true;
 
     return (
@@ -55,7 +77,7 @@ const SearchPage = ({ profiles }) => {
         <input
           type="text"
           name="language"
-          placeholder="Filter by language"
+          placeholder="Filter by language (e.g., English, Hindi)"
           value={filters.language}
           onChange={handleFilterChange}
         />
@@ -75,7 +97,7 @@ const SearchPage = ({ profiles }) => {
         />
         <input
           type="text"
-          placeholder="Search by text"
+          placeholder="Search by text (e.g., English, Hindi)"
           value={searchText}
           onChange={handleTextSearchChange}
         />
