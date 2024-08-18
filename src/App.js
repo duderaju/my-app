@@ -37,7 +37,7 @@ const App = () => {
     },
     {
       id: 3,
-      bannerImage: 'https://via.placeholder.com/1200x300/99cc99/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDgG5s0d46fdhF5x06EA28C2Ry4ZBwicDoew&s',
       name: 'Raj Patel',
       email: 'raj.patel@example.com',
       description: 'Tech reviewer and influencer specializing in gadgets and software.',
@@ -51,7 +51,7 @@ const App = () => {
     },
     {
       id: 4,
-      bannerImage: 'https://via.placeholder.com/1200x300/9999ff/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCaEiUS_K6EI0P-d58QYQh5guWcaaTKe1i3Q&s',
       name: 'Emily Johnson',
       email: 'emily.johnson@example.com',
       description: 'Fitness trainer and nutritionist offering workout plans and healthy eating tips.',
@@ -65,7 +65,7 @@ const App = () => {
     },
     {
       id: 5,
-      bannerImage: 'https://via.placeholder.com/1200x300/ffcc99/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFbjzmxTQINbl7x5qUUqQ6RaPZYaj2SyH5cg&s',
       name: 'Sophia Lee',
       email: 'sophia.lee@example.com',
       description: 'Fashion blogger and stylist with a passion for sustainable fashion.',
@@ -79,7 +79,7 @@ const App = () => {
     },
     {
       id: 6,
-      bannerImage: 'https://via.placeholder.com/1200x300/cccccc/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZRJgUgWDjgwZM9i2QN3VU3h_P0bYTP2s9xg&s',
       name: 'Liam Brown',
       email: 'liam.brown@example.com',
       description: 'Travel photographer capturing landscapes and cultures around the world.',
@@ -93,7 +93,7 @@ const App = () => {
     },
     {
       id: 7,
-      bannerImage: 'https://via.placeholder.com/1200x300/66ccff/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq5E5-Fxq1sqgdb4AFeXB3EAHcvnSeJ0LM6Q&s',
       name: 'Olivia Wilson',
       email: 'olivia.wilson@example.com',
       description: 'Yoga instructor and wellness coach promoting holistic health.',
@@ -107,7 +107,7 @@ const App = () => {
     },
     {
       id: 8,
-      bannerImage: 'https://via.placeholder.com/1200x300/ffcc66/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPRbkDy-gvjeVZ61Ko-21jFVUZ9r194WRHpQ&s',
       name: 'James Taylor',
       email: 'james.taylor@example.com',
       description: 'Freelance graphic designer specializing in brand identity and web design.',
@@ -121,7 +121,7 @@ const App = () => {
     },
     {
       id: 9,
-      bannerImage: 'https://via.placeholder.com/1200x300/ff9999/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlwJdlGTclyF3OpxHxEEqI9NFeB4qMDSy3RBqNxu7L3TLqTDVw6FGT0j5UHE5L3HK-Mhs&usqp=CAU',
       name: 'Isabella Davis',
       email: 'isabella.davis@example.com',
       description: 'Lifestyle blogger and influencer focusing on travel and adventure.',
@@ -135,7 +135,7 @@ const App = () => {
     },
     {
       id: 10,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc9966/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzfCJ2czLsLmWQqHTgBPzb3SVlebV653CeRjaiU-_CpZ5tsCux37eAtSffWPMmf20S8pA&usqp=CAU',
       name: 'Michael Harris',
       email: 'michael.harris@example.com',
       description: 'Podcast host discussing tech trends and startup culture.',
@@ -149,7 +149,7 @@ const App = () => {
     },
     {
       id: 11,
-      bannerImage: 'https://via.placeholder.com/1200x300/66cccc/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq7F7F8GvSd1IZcUKT-UfjiwsxLdf3fUXYwfV2ptLYlo8SGbSGvBEZQav-sC6RAbuVHqw&usqp=CAU',
       name: 'Emma Thompson',
       email: 'emma.thompson@example.com',
       description: 'Interior designer specializing in modern and minimalist spaces.',
@@ -163,7 +163,7 @@ const App = () => {
     },
     {
       id: 12,
-      bannerImage: 'https://via.placeholder.com/1200x300/ff6666/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5k59SWTAAuhkkKw4cSMsQeL91DSyCnwev3huEfi49hcDdM53ylnMrl2KAp1sYi71JSsQ&usqp=CAU',
       name: 'David Martinez',
       email: 'david.martinez@example.com',
       description: 'Cinematographer and video editor specializing in documentary filmmaking.',
@@ -177,7 +177,7 @@ const App = () => {
     },
     {
       id: 13,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc9999/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4WTBYymPUygi8JpZADbfHBMGqkf_SpKXQX4f2p_O_rN0HBuZdZThH-LtZS_jA4BnlTw&usqp=CAU',
       name: 'Grace Miller',
       email: 'grace.miller@example.com',
       description: 'Fashion designer focused on eco-friendly and sustainable clothing.',
@@ -191,7 +191,7 @@ const App = () => {
     },
     {
       id: 14,
-      bannerImage: 'https://via.placeholder.com/1200x300/669999/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhMTwaxLsP0pLnmugoSqUZ5ZHwQo0uF77wFKE1KdeQydyMqiqlwu31g6leqoVZzKqKPI&usqp=CAU',
       name: 'Robert Williams',
       email: 'robert.williams@example.com',
       description: 'Music producer and sound engineer working with indie artists.',
@@ -205,7 +205,7 @@ const App = () => {
     },
     {
       id: 15,
-      bannerImage: 'https://via.placeholder.com/1200x300/ffcccc/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvW5top5eHB7ViJFuZYPLsrVGO8STbBO_agfdAzv2OynNX4YUbV3Jq-wKhgDdbn93GSFw&usqp=CAU',
       name: 'Hannah Garcia',
       email: 'hannah.garcia@example.com',
       description: 'Freelance writer specializing in travel and lifestyle content.',
@@ -219,7 +219,7 @@ const App = () => {
     },
     {
       id: 16,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc9966/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHf1Pe1I1yubqH21_oexJuhK476bnF_V3Jdo_qRZHks3F_jgXEGT_BrnZV8w3dgQQJb9Y&usqp=CAU',
       name: 'Jack Moore',
       email: 'jack.moore@example.com',
       description: 'Digital marketer with a focus on SEO and content strategy.',
@@ -233,7 +233,7 @@ const App = () => {
     },
     {
       id: 17,
-      bannerImage: 'https://via.placeholder.com/1200x300/66ccff/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0H_jUR31-NI-tpBVQNjvD1BPiT5ABdKvn005P4IfuE_cKOdX0N7b-Z3GkdL9aaP2BOzg&usqp=CAU',
       name: 'Chloe Lewis',
       email: 'chloe.lewis@example.com',
       description: 'Graphic designer specializing in branding and packaging design.',
@@ -247,7 +247,7 @@ const App = () => {
     },
     {
       id: 18,
-      bannerImage: 'https://via.placeholder.com/1200x300/669999/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnVdy70yZRrrIXTt472po4aSTkluqFMKBKEEc6dlg3advUpm8_LbTzwAMFWalxBgCWMOk&usqp=CAU',
       name: 'Daniel Robinson',
       email: 'daniel.robinson@example.com',
       description: 'Product manager with experience in SaaS and mobile applications.',
@@ -261,7 +261,7 @@ const App = () => {
     },
     {
       id: 19,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc9966/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUpYPTySHpApNtxSNy_F3Xr6oxtABnFuJnVE73GL3_Hd1SDlwIy1dDwc_EYietgAJ6DD4&usqp=CAU',
       name: 'Zoe White',
       email: 'zoe.white@example.com',
       description: 'Web developer focused on front-end technologies and UX design.',
@@ -275,7 +275,7 @@ const App = () => {
     },
     {
       id: 20,
-      bannerImage: 'https://via.placeholder.com/1200x300/ff6666/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS74TUN4Mm6aTQCjwU4T6CT7vKQ5CYz4Ea_mw&s',
       name: 'Lucas Clark',
       email: 'lucas.clark@example.com',
       description: 'Entrepreneur and startup mentor with a focus on fintech.',
@@ -289,7 +289,7 @@ const App = () => {
     },
     {
       id: 21,
-      bannerImage: 'https://via.placeholder.com/1200x300/ff9966/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0_W7XXrcN11LPhavixVNmwdNXFnTTA-TAtLH4KxEGwWQsXUMUJCvxxfiAbLdbzFCSUN4&usqp=CAU',
       name: 'Grace Hall',
       email: 'grace.hall@example.com',
       description: 'Content strategist and social media manager for small businesses.',
@@ -303,7 +303,7 @@ const App = () => {
     },
     {
       id: 22,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc99cc/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8m3CbpU_sHuRdUu-HgxYFhvJH_bSy2Y_TOMu_A_KHr3kSq1Qkmy2ckVOp-qlkVLWBgg&usqp=CAU',
       name: 'James King',
       email: 'james.king@example.com',
       description: 'Financial analyst with a focus on investments and portfolio management.',
@@ -317,7 +317,7 @@ const App = () => {
     },
     {
       id: 23,
-      bannerImage: 'https://via.placeholder.com/1200x300/66cccc/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSu4MamE-00LeUjjl2-vz21K6VAs_n5vYum5vlXTgB3MXKe6Au0p-eZoK0L5dYgZMH0wLk&usqp=CAU',
       name: 'Lily Martinez',
       email: 'lily.martinez@example.com',
       description: 'Lifestyle coach helping individuals achieve work-life balance.',
@@ -331,7 +331,7 @@ const App = () => {
     },
     {
       id: 24,
-      bannerImage: 'https://via.placeholder.com/1200x300/99ccff/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEhMTwaxLsP0pLnmugoSqUZ5ZHwQo0uF77wFKE1KdeQydyMqiqlwu31g6leqoVZzKqKPI&usqp=CAU',
       name: 'Ethan Wright',
       email: 'ethan.wright@example.com',
       description: 'Software engineer with a focus on blockchain technology.',
@@ -345,7 +345,7 @@ const App = () => {
     },
     {
       id: 25,
-      bannerImage: 'https://via.placeholder.com/1200x300/ffcc66/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAStQLA3EjdxaQoetXpNcl7dC7odKCp2L2ao1ZXOQUywtgVTG38h5liyCON86eErBpM1Y&usqp=CAU',
       name: 'Ella Scott',
       email: 'ella.scott@example.com',
       description: 'Health and wellness coach focusing on nutrition and fitness.',
@@ -359,7 +359,7 @@ const App = () => {
     },
     {
       id: 26,
-      bannerImage: 'https://via.placeholder.com/1200x300/ff9999/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkMK_ljQgjVSafqq2fZfyf4OwbIVF1mMAR9LIJDjk2EXzzCYlDGQvKgLaS0wCSxwUx48Y&usqp=CAU',
       name: 'Joshua Hernandez',
       email: 'joshua.hernandez@example.com',
       description: 'Marketing consultant with expertise in digital advertising and SEO.',
@@ -373,7 +373,7 @@ const App = () => {
     },
     {
       id: 27,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc9999/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjjgUrsl3LYZZ0mPhURb97MzC0yOIgjw_hwRtWQ1S0drx1f2Xq2nbQ49xV9AQpJq_2cT0&usqp=CAU',
       name: 'Ava Brown',
       email: 'ava.brown@example.com',
       description: 'Fashion influencer and stylist with a focus on luxury fashion.',
@@ -387,7 +387,7 @@ const App = () => {
     },
     {
       id: 28,
-      bannerImage: 'https://via.placeholder.com/1200x300/cc66ff/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsGO7iK2sIDmvrS9797CxPi9K3_nJNXJjXLA&s',
       name: 'Mia Davis',
       email: 'mia.davis@example.com',
       description: 'UX designer specializing in user research and wireframing.',
@@ -401,7 +401,7 @@ const App = () => {
     },
     {
       id: 29,
-      bannerImage: 'https://via.placeholder.com/1200x300/6699cc/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwYGikNPszhYx3paP-iEMRkB1JY60-q1E4qg&s',
       name: 'Henry Lewis',
       email: 'henry.lewis@example.com',
       description: 'Tech entrepreneur focused on AI and machine learning startups.',
@@ -415,7 +415,7 @@ const App = () => {
     },
     {
       id: 30,
-      bannerImage: 'https://via.placeholder.com/1200x300/ffcc66/000000',
+      bannerImage: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVEPxi_hb2IQ7aU3ijwIZUMg-43wdFgVXXGVC2nM3Kgrum3dFMKqt81fPY9neMb2jNXM4&usqp=CAU',
       name: 'Victoria Adams',
       email: 'victoria.adams@example.com',
       description: 'Event planner specializing in weddings and corporate events.',
