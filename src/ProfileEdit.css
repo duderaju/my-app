@@ -1,0 +1,59 @@
+.profile-edit {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: #e7c9e7; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+   
+  .form-group {
+    margin-bottom: 15px;
+  }
+   
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #391391; 
+  }
+   
+  .form-group input{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #a7bdc2; 
+    border-radius: 5px; 
+    background-color: #ffffff; 
+    color: #333;
+  }
+  .form-group textarea {
+    width: 100%;
+    height: 170px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #a7bdc2; 
+    border-radius: 5px; 
+    background-color: #ffffff; 
+    color: #333; 
+  }
+   
+  .form-group textarea {
+    resize: vertical; 
+  }
+   
+  button {
+    margin: auto 43%;
+    padding: 10px 20px;
+    background-color: #007BFF; 
+    color: white; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    font-size: 1rem; 
+  }
+   
+  button:hover {
+    background-color: #0056b3; 
+  }
+  
