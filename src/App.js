@@ -10,15 +10,15 @@ const App = () => {
     {
       id: 1,
       bannerImage: require('./Banner.jpg'),
-      name: 'John Doe',
-      email: 'john.doe@example.com',
+      name: 'DUDE RAJU',
+      email: 'duderaju1310@gmail.com',
       description: 'Content Creator specializing in tech reviews.',
       languages: ['English', 'Hindi'],
-      education: 'Bachelor’s in Computer Science',
-      specialization: 'Software Engineering',
+      education: 'Bachelor’s in Civil Engineering',
+      specialization: 'Civil  Engineering',
       socialMediaLinks: [
-        { platform: 'LinkedIn', url: 'https://linkedin.com/in/johndoe' },
-        { platform: 'Twitter', url: 'https://twitter.com/johndoe' },
+        { platform: 'LinkedIn', url: 'https://www.linkedin.com/in/dude-raju-194863205/' },
+        { platform: 'GitHuB', url: 'https://github.com/duderaju' },
       ],
     },
     {
