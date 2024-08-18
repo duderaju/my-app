@@ -1,24 +1,35 @@
 .search-page {
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeefLnkFWbuw06m-xUR0H1WthO0IgdLv0nK7kw_Vq9tddji-5iN2SMUhchX1Drulubo4o&usqp=CAU"); */
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-   
-   
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.search-filters {
+  display: flex;
+  flex-wrap: wrap; /* Allow filters to wrap on smaller screens */
+  justify-content: center;
+  gap: 10px; /* Add spacing between filters */
+}
+
+.search-filters input {
+  flex: 1;
+  min-width: 150px; /* Minimum width for better usability on small screens */
+  max-width: 300px; /* Maximum width to avoid overly wide inputs */
+  padding: 8px;
+  border: 1px solid #7256b3;
+  border-radius: 4px;
+  color: #b45353;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
   .search-filters {
-    display: flex;
-    justify-content: center;
+      flex-direction: column; /* Stack filters vertically on smaller screens */
+      align-items: stretch; /* Make inputs stretch to full width */
   }
-   
-  .search-filters input {
-    margin-right: 10px;
-    padding: 8px;
-    border: 1px solid #7256b3;
-    border-radius: 4px;
-    color: #b45353;
-  }
+}
+
    
   .profile-list {
     margin-top: 20px;
